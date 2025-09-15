@@ -14,24 +14,29 @@ $var4 = 2.5;
 <body>
     <table>
         <tr>    
-            <th>Variable</th>
             <th>Type</th>
+            <th>Name</th>
+            <th>Value</th>
         </tr>
         <tr>
-            <td><?php echo $var1; ?></td>
             <td><?php echo gettype($var1); ?></td>
+            <td><?php echo "var1"; ?></td>
+            <td><?php echo $var1; ?></td>
         </tr>
         <tr>
-            <td><?php echo $var2; ?></td>
             <td><?php echo gettype($var2); ?></td>
+            <td><?php echo "var2"; ?></td>
+            <td><?php echo $var2; ?></td>
         </tr>
         <tr>
-            <td><?php echo $var3; ?></td>
             <td><?php echo gettype($var3); ?></td>
+            <td><?php echo "var3"; ?></td>
+            <td><?php echo $var3; ?></td>
         </tr>
         <tr>
-            <td><?php echo $var4; ?></td>
             <td><?php echo gettype($var4); ?></td>
+            <td><?php echo "var4"; ?></td>
+            <td><?php echo $var4; ?></td>
         </tr>
     </table>
 </body>
